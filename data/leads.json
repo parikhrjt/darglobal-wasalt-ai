@@ -1,0 +1,28 @@
+[
+  {
+    "booking_reference": "DG-662C87",
+    "client_name": "Prospective VIP Investor",
+    "email": "john@smith.com",
+    "phone": "+971501234567",
+    "property_id": null,
+    "property_name": "Executive Real Estate Consultation",
+    "preferred_datetime": "Within 24 Hours",
+    "budget_range": "Not specified",
+    "notes": "Initial inquiry: 'Book consultation for John Smith, email john@smith.com, phone +971501234567'",
+    "status": "Confirmed / Priority Route to Senior Consultant",
+    "created_at": "2026-11-22T04:23:05.925431"
+  },
+  {
+    "booking_reference": "DG-165BA2",
+    "client_name": "Hamad Al-Subaie",
+    "email": "hamad@investor.sa",
+    "phone": "+966505554321",
+    "property_id": null,
+    "property_name": "Da Vinci Tower by Pagani",
+    "preferred_datetime": "Earliest Executive Slot",
+    "budget_range": "Not specified",
+    "notes": "Interested in penthouse collection.",
+    "status": "Confirmed / Priority Route to Senior Consultant",
+    "created_at": "2026-11-22T04:25:17.149612"
+  }
+]

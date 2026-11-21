@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DarGlobal × Wasalt — Agentic AI Real Estate Advisor</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Tailwind Custom Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#C5A059',
+              goldLight: '#E2C792',
+              goldDark: '#997736',
+              charcoal: '#0C0E12',
+              surface: '#13171F',
+              surfaceBorder: '#232936',
+              surfaceHover: '#1B212D',
+              muted: '#8E96A4'
+            }
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            arabic: ['"Noto Sans Arabic"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="bg-brand-charcoal text-slate-100 font-sans antialiased min-h-screen flex flex-col selection:bg-brand-gold selection:text-black">
+
+  <!-- TOP LUXURY HEADER -->
+  <header class="border-b border-brand-surfaceBorder bg-brand-surface/90 backdrop-blur-md sticky top-0 z-40 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Left: Brand Identity -->
+      <div class="flex items-center space-x-4">
+        <a href="/" class="flex items-center space-x-3 group">
+          <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-gold to-brand-goldDark p-0.5 shadow-lg shadow-brand-gold/20 flex items-center justify-center">
+            <div class="w-full h-full bg-brand-charcoal rounded-[7px] flex items-center justify-center">
+              <span class="font-serif font-bold text-lg text-brand-gold group-hover:scale-105 transition-transform">DG</span>
+            </div>
+          </div>
+          <div>
+            <div class="flex items-center space-x-2">
+              <span class="font-serif font-bold tracking-wider text-lg text-white">DAR<span class="text-brand-gold">GLOBAL</span></span>
+              <span class="text-xs text-brand-muted">×</span>
+              <span class="font-medium text-xs text-brand-gold tracking-widest uppercase bg-brand-gold/10 px-2 py-0.5 rounded border border-brand-gold/30">WASALT</span>
+            </div>
+            <p class="text-[11px] text-brand-muted tracking-tight">Agentic Real Estate Advisory • LSE Listed</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Center: Active Model & Agent Status Pill -->
+      <div class="hidden md:flex items-center space-x-2 bg-brand-charcoal/80 border border-brand-surfaceBorder px-3.5 py-1.5 rounded-full text-xs shadow-inner">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span class="text-brand-muted">Model:</span>
+        <span id="activeModelLabel" class="font-medium text-brand-gold truncate max-w-[200px]">meta-llama/llama-3.3-70b-instruct:free</span>
+        <button id="openModelSettingsBtn" class="text-brand-muted hover:text-white transition-colors ml-1 p-0.5" title="Configure AI Model & Keys">
+          <i data-lucide="sliders" class="w-3.5 h-3.5"></i>
+        </button>
+      </div>
+
+      <!-- Right: Utility Controls (Currency, Lang, Drawer, Settings) -->
+      <div class="flex items-center space-x-2.5">
+        <!-- Currency Selector -->
+        <select id="currencySelector" class="bg-brand-charcoal border border-brand-surfaceBorder text-xs text-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:border-brand-gold transition-colors cursor-pointer">
+          <option value="USD">USD ($)</option>
+          <option value="AED">AED (د.إ)</option>
+          <option value="SAR" selected>SAR (ر.س)</option>
+          <option value="GBP">GBP (£)</option>
+          <option value="EUR">EUR (€)</option>
+        </select>
+
+        <!-- Language Toggle -->
+        <button id="langToggleBtn" class="bg-brand-charcoal hover:bg-brand-surfaceBorder border border-brand-surfaceBorder text-xs text-slate-200 px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5">
+          <i data-lucide="globe" class="w-3.5 h-3.5 text-brand-gold"></i>
+          <span id="langLabel">العربية</span>
+        </button>
+
+        <!-- Catalog Drawer Toggle -->
+        <button id="openCatalogBtn" class="bg-brand-gold/10 hover:bg-brand-gold/20 border border-brand-gold/40 text-xs text-brand-gold px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5 font-medium">
+          <i data-lucide="compass" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Portfolio</span>
+        </button>
+
+        <!-- Settings Icon -->
+        <button id="settingsModalBtn" class="bg-brand-charcoal hover:bg-brand-surfaceBorder border border-brand-surfaceBorder p-2 rounded-lg text-slate-300 hover:text-white transition-colors" title="Settings">
+          <i data-lucide="settings" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MAIN CHAT CONTAINER -->
+  <main class="flex-1 max-w-5xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col">
+    
+    <!-- Messages Scroll Area -->
+    <div id="messagesContainer" class="flex-1 overflow-y-auto space-y-6 pb-6 pr-1 custom-scrollbar">
+      
+      <!-- Welcome Hero Message -->
+      <div class="agent-message bg-brand-surface/70 border border-brand-surfaceBorder/80 rounded-2xl p-6 shadow-xl backdrop-blur-sm relative overflow-hidden">
+        <div class="absolute -right-16 -top-16 w-64 h-64 bg-brand-gold/5 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="flex items-start space-x-4">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-gold to-brand-goldDark flex items-center justify-center flex-shrink-0 shadow-md shadow-brand-gold/20">
+            <i data-lucide="gem" class="w-5 h-5 text-brand-charcoal"></i>
+          </div>
+          <div class="flex-1 space-y-3">
+            <div class="flex items-center space-x-2">
+              <h2 class="font-serif text-lg font-bold text-white tracking-wide">Welcome to DarGlobal & Wasalt Real Estate Intelligence</h2>
+              <span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded-full border border-emerald-500/20 font-medium">Agent Active</span>
+            </div>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              I am your private autonomous real estate advisor for <strong class="text-brand-gold">DarGlobal</strong>'s international co-branded portfolio (<span class="text-slate-200">The Trump Organization, Pagani, Missoni, Aston Martin, Lamborghini, Elie Saab, Mouawad</span>) and <strong class="text-brand-gold">Wasalt</strong>'s verified Saudi proptech marketplace.
+            </p>
+            <p class="text-xs text-brand-muted">
+              Equipped with real-time portfolio search, comparative ROI analytics, mortgage calculation, Golden Visa evaluation, and VIP private consultation booking.
+            </p>
+
+            <!-- Quick Action Prompts -->
+            <div class="pt-2">
+              <p class="text-[11px] font-semibold text-brand-gold uppercase tracking-wider mb-2">Recommended Inquiries:</p>
+              <div class="flex flex-wrap gap-2" id="promptChips">
+                <button class="prompt-chip bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-brand-surfaceBorder transition-all hover:border-brand-gold/60 text-left">
+                  ✨ Dubai luxury branded residences
+                </button>
+                <button class="prompt-chip bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-brand-surfaceBorder transition-all hover:border-brand-gold/60 text-left">
+                  🏰 Luxury villas in Riyadh under SAR 5M
+                </button>
+                <button class="prompt-chip bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-brand-surfaceBorder transition-all hover:border-brand-gold/60 text-left">
+                  ⚖️ Compare Pagani Tower vs Trump Dubai
+                </button>
+                <button class="prompt-chip bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-brand-surfaceBorder transition-all hover:border-brand-gold/60 text-left">
+                  📊 Calculate mortgage & 8.5% ROI on $2.45M
+                </button>
+                <button class="prompt-chip bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-brand-surfaceBorder transition-all hover:border-brand-gold/60 text-left">
+                  🌐 UAE Golden Visa residency eligibility
+                </button>
+                <button class="prompt-chip bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-brand-surfaceBorder transition-all hover:border-brand-gold/60 text-left">
+                  📅 Schedule a VIP private consultation
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Agent Typing Indicator -->
+    <div id="typingIndicator" class="hidden items-center space-x-3 py-3 px-4 mb-2 bg-brand-surface/50 border border-brand-surfaceBorder/50 rounded-xl w-fit">
+      <div class="flex space-x-1.5">
+        <div class="w-2 h-2 rounded-full bg-brand-gold animate-bounce" style="animation-delay: 0ms"></div>
+        <div class="w-2 h-2 rounded-full bg-brand-gold animate-bounce" style="animation-delay: 150ms"></div>
+        <div class="w-2 h-2 rounded-full bg-brand-gold animate-bounce" style="animation-delay: 300ms"></div>
+      </div>
+      <span class="text-xs text-brand-muted font-medium">Consultant researching portfolio & running tools...</span>
+    </div>
+
+    <!-- CHAT INPUT BAR -->
+    <div class="border border-brand-surfaceBorder bg-brand-surface rounded-2xl p-2.5 shadow-2xl focus-within:border-brand-gold/80 transition-all">
+      <form id="chatForm" class="flex items-center space-x-2">
+        <input 
+          id="chatInput" 
+          type="text" 
+          placeholder="Ask about luxury developments, Riyadh villas, ROI models, or book a private viewing..." 
+          class="flex-1 bg-transparent px-3 py-2 text-sm text-slate-100 placeholder-brand-muted focus:outline-none"
+          autocomplete="off"
+        />
+        <button 
+          type="submit" 
+          id="sendBtn"
+          class="bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-brand-charcoal font-semibold p-2.5 rounded-xl shadow-lg shadow-brand-gold/20 transition-all transform active:scale-95 disabled:opacity-50"
+        >
+          <i data-lucide="arrow-up" class="w-4 h-4"></i>
+        </button>
+      </form>
+    </div>
+
+    <!-- Disclaimer Footer -->
+    <div class="flex items-center justify-between text-[11px] text-brand-muted mt-2 px-2">
+      <span>Official publicly scraped catalog from DarGlobal & Wasalt (REGA Licensed).</span>
+      <span class="flex items-center space-x-1">
+        <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-400"></i>
+        <span>Bank-Grade Encryption</span>
+      </span>
+    </div>
+
+  </main>
+
+  <!-- PROPERTY DETAIL MODAL -->
+  <div id="propertyModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-brand-surface border border-brand-surfaceBorder rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar relative shadow-2xl">
+      <button id="closePropertyModalBtn" class="absolute top-4 right-4 bg-brand-charcoal/80 hover:bg-brand-charcoal text-slate-300 hover:text-white p-2 rounded-full border border-brand-surfaceBorder transition-colors z-10">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+      <div id="propertyModalContent" class="p-6 space-y-6">
+        <!-- Injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- VIP CONSULTATION BOOKING MODAL -->
+  <div id="bookingModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-brand-surface border border-brand-surfaceBorder rounded-2xl max-w-lg w-full p-6 relative shadow-2xl">
+      <button id="closeBookingModalBtn" class="absolute top-4 right-4 text-brand-muted hover:text-white p-1 rounded-lg">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+      <div class="flex items-center space-x-3 mb-4">
+        <div class="w-10 h-10 rounded-xl bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold">
+          <i data-lucide="calendar" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h3 class="font-serif font-bold text-lg text-white">VIP Private Viewing & Consultation</h3>
+          <p class="text-xs text-brand-muted">Direct routing to Senior Portfolio Director</p>
+        </div>
+      </div>
+      <form id="bookingForm" class="space-y-4">
+        <input type="hidden" id="bookingPropId" value="">
+        <input type="hidden" id="bookingPropName" value="">
+        
+        <div>
+          <label class="block text-xs font-medium text-slate-300 mb-1">Full Name *</label>
+          <input type="text" id="bookingName" required placeholder="e.g. Sultan Al-Mansoor" class="w-full bg-brand-charcoal border border-brand-surfaceBorder rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-brand-gold">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-slate-300 mb-1">Email Address *</label>
+          <input type="email" id="bookingEmail" required placeholder="investor@domain.com" class="w-full bg-brand-charcoal border border-brand-surfaceBorder rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-brand-gold">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-slate-300 mb-1">Phone Number (with Country Code)</label>
+          <input type="tel" id="bookingPhone" placeholder="+971 50 123 4567" class="w-full bg-brand-charcoal border border-brand-surfaceBorder rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-brand-gold">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-slate-300 mb-1">Preferred Time / Consultation Notes</label>
+          <textarea id="bookingNotes" rows="2" placeholder="Specific requirements, financing inquiry, or viewing date..." class="w-full bg-brand-charcoal border border-brand-surfaceBorder rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-brand-gold"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-gradient-to-r from-brand-gold to-brand-goldDark text-brand-charcoal font-bold py-2.5 rounded-xl shadow-lg hover:brightness-110 transition-all text-sm">
+          Confirm VIP Consultation Request
+        </button>
+      </form>
+      <div id="bookingSuccessBox" class="hidden mt-4 p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-center">
+        <i data-lucide="check-circle" class="w-8 h-8 text-emerald-400 mx-auto mb-2"></i>
+        <p class="font-serif font-bold text-emerald-300">Appointment Reserved</p>
+        <p id="bookingRefText" class="text-xs text-slate-300 mt-1"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SETTINGS & OPENROUTER MODAL -->
+  <div id="settingsModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-brand-surface border border-brand-surfaceBorder rounded-2xl max-w-md w-full p-6 relative shadow-2xl space-y-5">
+      <button id="closeSettingsModalBtn" class="absolute top-4 right-4 text-brand-muted hover:text-white p-1 rounded-lg">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold">
+          <i data-lucide="cpu" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h3 class="font-serif font-bold text-lg text-white">AI Agent Engine Settings</h3>
+          <p class="text-xs text-brand-muted">Configure OpenRouter Free Model & Keys</p>
+        </div>
+      </div>
+
+      <div class="space-y-4 text-xs">
+        <div>
+          <label class="block font-medium text-slate-300 mb-1">OpenRouter Model (Free Models)</label>
+          <select id="modelSelect" class="w-full bg-brand-charcoal border border-brand-surfaceBorder rounded-lg px-3 py-2 text-slate-100 focus:outline-none focus:border-brand-gold">
+            <option value="meta-llama/llama-3.3-70b-instruct:free">meta-llama/llama-3.3-70b-instruct:free (Recommended)</option>
+            <option value="qwen/qwen-2.5-72b-instruct:free">qwen/qwen-2.5-72b-instruct:free</option>
+            <option value="mistralai/mistral-7b-instruct:free">mistralai/mistral-7b-instruct:free</option>
+            <option value="deepseek/deepseek-r1:free">deepseek/deepseek-r1:free</option>
+            <option value="google/gemini-2.0-flash-exp:free">google/gemini-2.0-flash-exp:free</option>
+          </select>
+          <p class="text-[11px] text-brand-muted mt-1">Supports any OpenRouter free model specification.</p>
+        </div>
+
+        <div>
+          <label class="block font-medium text-slate-300 mb-1">OpenRouter API Key (Optional)</label>
+          <input type="password" id="apiKeyInput" placeholder="sk-or-v1-..." class="w-full bg-brand-charcoal border border-brand-surfaceBorder rounded-lg px-3 py-2 text-slate-100 focus:outline-none focus:border-brand-gold">
+          <p class="text-[11px] text-brand-muted mt-1">Leave empty to run in Zero-Downtime Autonomous Deterministic Agent mode.</p>
+        </div>
+
+        <div class="p-3 bg-brand-charcoal/60 rounded-xl border border-brand-surfaceBorder space-y-1">
+          <p class="font-semibold text-brand-gold flex items-center space-x-1.5">
+            <i data-lucide="shield" class="w-3.5 h-3.5"></i>
+            <span>Dual-Engine Resilient Architecture:</span>
+          </p>
+          <p class="text-slate-400">If OpenRouter rate limits (429) or is unreachable, the system automatically falls back to our local deterministic agent engine so the demo never goes down!</p>
+        </div>
+
+        <button id="saveSettingsBtn" class="w-full bg-gradient-to-r from-brand-gold to-brand-goldDark text-brand-charcoal font-bold py-2 rounded-xl text-sm hover:brightness-110 transition-all">
+          Save Settings
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO CATALOG DRAWER -->
+  <div id="catalogDrawer" class="fixed inset-y-0 right-0 max-w-md w-full bg-brand-surface border-l border-brand-surfaceBorder z-50 transform translate-x-full transition-transform duration-300 shadow-2xl flex flex-col">
+    <div class="p-4 border-b border-brand-surfaceBorder flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <i data-lucide="layers" class="w-5 h-5 text-brand-gold"></i>
+        <h3 class="font-serif font-bold text-white">Curated Real Estate Catalog</h3>
+      </div>
+      <button id="closeCatalogBtn" class="text-brand-muted hover:text-white p-1 rounded-lg">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- Quick Filter Tabs -->
+    <div class="p-4 border-b border-brand-surfaceBorder flex space-x-2 text-xs">
+      <button data-filter="all" class="catalog-filter-btn flex-1 py-1.5 rounded-lg bg-brand-gold text-brand-charcoal font-bold">All</button>
+      <button data-filter="DarGlobal" class="catalog-filter-btn flex-1 py-1.5 rounded-lg bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-300 font-medium">DarGlobal</button>
+      <button data-filter="Wasalt" class="catalog-filter-btn flex-1 py-1.5 rounded-lg bg-brand-charcoal hover:bg-brand-surfaceBorder text-slate-300 font-medium">Wasalt (KSA)</button>
+    </div>
+
+    <div id="catalogList" class="flex-1 overflow-y-auto p-4 space-y-4 custom-scrollbar">
+      <!-- Injected dynamically -->
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

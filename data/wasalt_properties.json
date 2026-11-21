@@ -1,0 +1,443 @@
+[
+  {
+    "id": "ws-riyadh-almalqa-villa-01",
+    "source": "Wasalt",
+    "name": "Luxury Modern Smart Villa in Al Malqa",
+    "property_type": "Standalone Villa",
+    "category": "For Sale",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Malqa (North Riyadh)",
+      "coordinates": { "lat": 24.8105, "lng": 46.5982 }
+    },
+    "rega_license_id": "REGA-7200194821",
+    "is_verified": true,
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "area_sqm": 450,
+    "area_sqft": 4843,
+    "price": {
+      "price_sar": 4800000,
+      "price_usd": 1280000,
+      "price_aed": 4700000,
+      "price_gbp": 1024000,
+      "price_eur": 1190000,
+      "price_per_sqm_sar": 10666
+    },
+    "furnishing": "Unfurnished with Custom Kitchen Installed",
+    "features": [
+      "Private Heated Swimming Pool & Garden Patio",
+      "Italian Schindler Passenger Elevator",
+      "Integrated Smart Home System (Lighting, HVAC, CCTV)",
+      "Driver Room with Ensuite & Maid's Quarters",
+      "Double-Height Living Hall with Floor-to-Ceiling Glass",
+      "2 Covered Garage Spaces with EV Charger"
+    ],
+    "description": "Exquisite contemporary villa in prime Al Malqa, North Riyadh. Built to the highest structural standards with 10-year insurance warranty. Features open-concept reception areas, marble flooring, and smart automation.",
+    "agent": {
+      "name": "Saud Al-Otaibi",
+      "agency": "Wasalt Premier Real Estate",
+      "phone": "+966 50 123 4567",
+      "rega_broker_id": "11002349"
+    },
+    "image_url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/riyadh/al-malqa/villa-4800k"
+  },
+  {
+    "id": "ws-riyadh-hittin-penthouse-02",
+    "source": "Wasalt",
+    "name": "Panoramic Penthouse with Sky Terrace in Hittin",
+    "property_type": "Luxury Penthouse",
+    "category": "For Sale",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "Hittin (Near KAFD & Riyadh Boulevard)",
+      "coordinates": { "lat": 24.7730, "lng": 46.6025 }
+    },
+    "rega_license_id": "REGA-7200185934",
+    "is_verified": true,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_sqm": 280,
+    "area_sqft": 3014,
+    "price": {
+      "price_sar": 2750000,
+      "price_usd": 733000,
+      "price_aed": 2690000,
+      "price_gbp": 586000,
+      "price_eur": 682000,
+      "price_per_sqm_sar": 9821
+    },
+    "furnishing": "Semi-Furnished",
+    "features": [
+      "120 sqm Private Rooftop Terrace overlooking KAFD Skyline",
+      "Open Plan Designer German Kitchen with Bosch Appliances",
+      "Master Suite with Walk-In Dressing Room & Jacuzzi",
+      "Direct Private Lift Access with Keycard Security",
+      "Underground Designated Parking"
+    ],
+    "description": "Rare penthouse opportunity in Hittin, moments away from King Abdullah Financial District (KAFD) and Boulevard City. Perfect for executive living or high-return short-term rental.",
+    "agent": {
+      "name": "Nasser Al-Shehri",
+      "agency": "Horizon Wasalt Network",
+      "phone": "+966 55 987 6543",
+      "rega_broker_id": "12004561"
+    },
+    "image_url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/riyadh/hittin/penthouse-2750k"
+  },
+  {
+    "id": "ws-riyadh-narjis-apartment-03",
+    "source": "Wasalt",
+    "name": "Modern 3-Bedroom Apartment in Al Narjis",
+    "property_type": "Apartment",
+    "category": "For Sale",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Narjis (Vision 2030 Growth Corridor)",
+      "coordinates": { "lat": 24.8420, "lng": 46.6850 }
+    },
+    "rega_license_id": "REGA-7200210043",
+    "is_verified": true,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_sqm": 165,
+    "area_sqft": 1776,
+    "price": {
+      "price_sar": 1150000,
+      "price_usd": 306500,
+      "price_aed": 1125000,
+      "price_gbp": 245000,
+      "price_eur": 285000,
+      "price_per_sqm_sar": 6969
+    },
+    "furnishing": "Unfurnished",
+    "features": [
+      "Spacious Living Room with Natural Sunlighting",
+      "Balcony with Community Park Views",
+      "Building Gym & Children's Play Area",
+      "Concierge and CCTV Monitoring",
+      "Close to King Salman International Airport corridor"
+    ],
+    "description": "Brand new 3-bedroom apartment located in the rapid-growth zone of Al Narjis, North Riyadh. Ideal for young families or investors seeking stable 8%+ rental yields.",
+    "agent": {
+      "name": "Fahad Al-Harbi",
+      "agency": "Wasalt Capital Partners",
+      "phone": "+966 54 332 1100",
+      "rega_broker_id": "11008892"
+    },
+    "image_url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/riyadh/al-narjis/apt-1150k"
+  },
+  {
+    "id": "ws-riyadh-alyasmin-duplex-04",
+    "source": "Wasalt",
+    "name": "Contemporary Duplex with Private Courtyard in Al Yasmin",
+    "property_type": "Duplex",
+    "category": "For Sale",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Yasmin (North Riyadh)",
+      "coordinates": { "lat": 24.8250, "lng": 46.6430 }
+    },
+    "rega_license_id": "REGA-7200167389",
+    "is_verified": true,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area_sqm": 310,
+    "area_sqft": 3336,
+    "price": {
+      "price_sar": 2350000,
+      "price_usd": 626500,
+      "price_aed": 2300000,
+      "price_gbp": 501000,
+      "price_eur": 583000,
+      "price_per_sqm_sar": 7580
+    },
+    "furnishing": "Semi-Furnished",
+    "features": [
+      "Landscaped Private Ground-Floor Courtyard",
+      "Modern Split-Level Architectural Layout",
+      "Maid's Room with Bathroom & Laundry Utility",
+      "Thermal Insulation & High-Efficiency Inverter ACs",
+      "Dedicated Shaded Carport for 2 Vehicles"
+    ],
+    "description": "Chic 4-bedroom duplex in Al Yasmin combining villa privacy with low-maintenance apartment convenience. Within 5 minutes from Anas Ibn Malik commercial strip.",
+    "agent": {
+      "name": "Rayan Al-Ghamdi",
+      "agency": "Wasalt Exclusive Properties",
+      "phone": "+966 56 445 7788",
+      "rega_broker_id": "11009941"
+    },
+    "image_url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/riyadh/al-yasmin/duplex-2350k"
+  },
+  {
+    "id": "ws-riyadh-alolaya-office-05",
+    "source": "Wasalt",
+    "name": "Prime Commercial Grade-A Office Floor in Al Olaya",
+    "property_type": "Commercial Office",
+    "category": "For Sale",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Olaya (Central Business District)",
+      "coordinates": { "lat": 24.6980, "lng": 46.6850 }
+    },
+    "rega_license_id": "REGA-7200145290",
+    "is_verified": true,
+    "bedrooms": 0,
+    "bathrooms": 4,
+    "area_sqm": 520,
+    "area_sqft": 5597,
+    "price": {
+      "price_sar": 8900000,
+      "price_usd": 2373000,
+      "price_aed": 8720000,
+      "price_gbp": 1898000,
+      "price_eur": 2207000,
+      "price_per_sqm_sar": 17115
+    },
+    "furnishing": "Fitted Commercial Grade-A",
+    "features": [
+      "High-speed Fiber Optic & Tier-3 Data Center Ready",
+      "6 Executive Boardrooms & Open Workstation Hubs",
+      "Pantry & Private Executive Bathrooms",
+      "12 Allocated Underground Parking Spaces",
+      "Bespoke Reception & 24/7 Security Turnstiles"
+    ],
+    "description": "Trophy Grade-A commercial asset in the heartbeat of Riyadh's central financial strip in Al Olaya. Excellent corporate tenancy potential with 9.5% projected annual net yield.",
+    "agent": {
+      "name": "Abdullah Al-Dosari",
+      "agency": "Wasalt Commercial Advisory",
+      "phone": "+966 50 889 0011",
+      "rega_broker_id": "11005523"
+    },
+    "image_url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/riyadh/al-olaya/office-8900k"
+  },
+  {
+    "id": "ws-jeddah-obhur-waterfront-06",
+    "source": "Wasalt",
+    "name": "Red Sea Waterfront Villa with Private Mooring in Obhur",
+    "property_type": "Standalone Villa",
+    "category": "For Sale",
+    "location": {
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "neighborhood": "Obhur Al Shamaliyah",
+      "coordinates": { "lat": 21.7280, "lng": 39.1240 }
+    },
+    "rega_license_id": "REGA-7200199412",
+    "is_verified": true,
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "area_sqm": 720,
+    "area_sqft": 7750,
+    "price": {
+      "price_sar": 7500000,
+      "price_usd": 2000000,
+      "price_aed": 7350000,
+      "price_gbp": 1600000,
+      "price_eur": 1860000,
+      "price_per_sqm_sar": 10416
+    },
+    "furnishing": "Unfurnished",
+    "features": [
+      "Direct Private Yacht Berth on Sharm Obhur",
+      "Infinity Edge Pool overlooking the Marine Lagoon",
+      "Rooftop Sunset Lounge & Glass-Walled Solarium",
+      "Separate Annex for Guard & Housekeeping Staff",
+      "Smart Security, Private Jetty & Mooring Rights"
+    ],
+    "description": "Ultra-prime waterfront residence situated directly on the tranquil waters of Obhur Creek in North Jeddah. Boasts a private boat dock, lavish outdoor entertaining pavilions, and tranquil sea breezes.",
+    "agent": {
+      "name": "Zaid Al-Amoudi",
+      "agency": "Wasalt Coastal Estates",
+      "phone": "+966 53 776 5432",
+      "rega_broker_id": "12008819"
+    },
+    "image_url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/jeddah/obhur/villa-7500k"
+  },
+  {
+    "id": "ws-jeddah-alshati-apartment-07",
+    "source": "Wasalt",
+    "name": "Sea-View Luxury Residence in Al Shati, Jeddah",
+    "property_type": "Apartment",
+    "category": "For Sale",
+    "location": {
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Shati (Jeddah Waterfront)",
+      "coordinates": { "lat": 21.6020, "lng": 39.1120 }
+    },
+    "rega_license_id": "REGA-7200234190",
+    "is_verified": true,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_sqm": 220,
+    "area_sqft": 2368,
+    "price": {
+      "price_sar": 1850000,
+      "price_usd": 493000,
+      "price_aed": 1812000,
+      "price_gbp": 395000,
+      "price_eur": 459000,
+      "price_per_sqm_sar": 8409
+    },
+    "furnishing": "Furnished",
+    "features": [
+      "Full Unobstructed Views of the Red Sea Horizon",
+      "Steps from Jeddah Corniche & Red Sea Mall",
+      "Residents' Heated Swimming Pool & Spa",
+      "Smart Access & Video Intercom",
+      "Secure Underground Parking with Valet"
+    ],
+    "description": "Prestigious seaside apartment in Al Shati offering panoramic vistas of the Red Sea. Elegantly appointed with bespoke fixtures and prime access to Jeddah's best restaurants and boardwalk.",
+    "agent": {
+      "name": "Hani Bakhsh",
+      "agency": "Wasalt Red Sea Division",
+      "phone": "+966 50 443 2211",
+      "rega_broker_id": "12003310"
+    },
+    "image_url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/jeddah/al-shati/apt-1850k"
+  },
+  {
+    "id": "ws-khobar-shamalia-villa-08",
+    "source": "Wasalt",
+    "name": "Contemporary Coastal Villa in Al Khobar Al Shamalia",
+    "property_type": "Standalone Villa",
+    "category": "For Sale",
+    "location": {
+      "city": "Al Khobar",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Khobar Al Shamalia",
+      "coordinates": { "lat": 26.2950, "lng": 50.2100 }
+    },
+    "rega_license_id": "REGA-7200178940",
+    "is_verified": true,
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "area_sqm": 420,
+    "area_sqft": 4520,
+    "price": {
+      "price_sar": 3600000,
+      "price_usd": 960000,
+      "price_aed": 3528000,
+      "price_gbp": 768000,
+      "price_eur": 892000,
+      "price_per_sqm_sar": 8571
+    },
+    "furnishing": "Unfurnished",
+    "features": [
+      "Minimalist Coastal Architecture with Natural Stone Facade",
+      "Central Atrium with Skylight & Indoor Garden",
+      "Private Lap Pool and Barbecue Terrace",
+      "Driver and Domestic Staff Suites",
+      "Quick Access to King Fahd Causeway to Bahrain"
+    ],
+    "description": "High-spec architectural villa in Northern Al Khobar. Thoughtfully planned for modern family life and entertaining, minutes from Khobar Corniche and international schools.",
+    "agent": {
+      "name": "Tariq Al-Mubarak",
+      "agency": "Wasalt Eastern Province Properties",
+      "phone": "+966 55 112 3344",
+      "rega_broker_id": "13007712"
+    },
+    "image_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/khobar/al-shamalia/villa-3600k"
+  },
+  {
+    "id": "ws-dammam-fursan-villa-09",
+    "source": "Wasalt",
+    "name": "Modern Family Villa in Al Fursan, Dammam",
+    "property_type": "Standalone Villa",
+    "category": "For Sale",
+    "location": {
+      "city": "Dammam",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Fursan (West Dammam)",
+      "coordinates": { "lat": 26.3800, "lng": 50.0500 }
+    },
+    "rega_license_id": "REGA-7200155231",
+    "is_verified": true,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area_sqm": 350,
+    "area_sqft": 3767,
+    "price": {
+      "price_sar": 1950000,
+      "price_usd": 520000,
+      "price_aed": 1910000,
+      "price_gbp": 416000,
+      "price_eur": 483000,
+      "price_per_sqm_sar": 5571
+    },
+    "furnishing": "Unfurnished",
+    "features": [
+      "Modern Split-Level Design",
+      "Spacious Family Living Areas & Majlis",
+      "Private Backyard with Covered Pergola",
+      "Driver Room & Outside Annex",
+      "Fully Insulated with Energy-Saving Glazing"
+    ],
+    "description": "Well-appointed new villa in Al Fursan neighborhood of Dammam. Offers serene residential living with easy access to Dammam-Riyadh Highway and King Fahd International Airport.",
+    "agent": {
+      "name": "Hussain Al-Khaldi",
+      "agency": "Wasalt Dammam Network",
+      "phone": "+966 54 887 9900",
+      "rega_broker_id": "13009988"
+    },
+    "image_url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/dammam/al-fursan/villa-1950k"
+  },
+  {
+    "id": "ws-riyadh-alnakheel-mansion-10",
+    "source": "Wasalt",
+    "name": "Classic Royal Estate in Al Nakheel, Riyadh",
+    "property_type": "Mansion / Palace",
+    "category": "For Sale",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "Al Nakheel (North-West Riyadh)",
+      "coordinates": { "lat": 24.7550, "lng": 46.6350 }
+    },
+    "rega_license_id": "REGA-7200112876",
+    "is_verified": true,
+    "bedrooms": 7,
+    "bathrooms": 9,
+    "area_sqm": 1250,
+    "area_sqft": 13455,
+    "price": {
+      "price_sar": 18500000,
+      "price_usd": 4933000,
+      "price_aed": 18130000,
+      "price_gbp": 3946000,
+      "price_eur": 4588000,
+      "price_per_sqm_sar": 14800
+    },
+    "furnishing": "Fully Furnished with European Import",
+    "features": [
+      "1,250 sqm Private Land with Palm Grove Gardens",
+      "Grand Reception Majlis accommodating 60+ guests",
+      "Olympic-Length Indoor Heated Swimming Pool",
+      "Private Cinema, Moroccan Bath & Spa Complex",
+      "Separate Multi-Bedroom Staff Quarters & Commercial Kitchen"
+    ],
+    "description": "A truly palatial estate in Al Nakheel, one of Riyadh's most prestigious diplomatic and aristocratic quarters. Features soaring ceilings, authentic artisanal stonework, and maximum diplomatic security.",
+    "agent": {
+      "name": "Abdulaziz Al-Saud Brokerage",
+      "agency": "Wasalt Private Client Office",
+      "phone": "+966 50 001 9922",
+      "rega_broker_id": "11001001"
+    },
+    "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    "wasalt_url": "https://wasalt.com/properties/riyadh/al-nakheel/estate-18500k"
+  }
+]

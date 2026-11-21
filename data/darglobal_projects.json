@@ -1,0 +1,585 @@
+[
+  {
+    "id": "dg-davinci-pagani",
+    "source": "DarGlobal",
+    "name": "Da Vinci Tower by Pagani",
+    "brand_partner": "Pagani Automobili",
+    "location": {
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "neighborhood": "Business Bay / Dubai Water Canal",
+      "coordinates": { "lat": 25.1848, "lng": 55.2728 }
+    },
+    "property_types": ["Ultra-Luxury Apartment", "Duplex", "Penthouse"],
+    "bedrooms": [2, 3, 4],
+    "bathrooms": [3, 4, 5],
+    "area_sqft": { "min": 1750, "max": 8200 },
+    "area_sqm": { "min": 162, "max": 762 },
+    "price": {
+      "starting_price_usd": 2450000,
+      "starting_price_aed": 9000000,
+      "starting_price_sar": 9187500,
+      "starting_price_gbp": 1960000,
+      "starting_price_eur": 2280000
+    },
+    "payment_plan": "20% Down Payment, 60% During Construction, 20% on Handover",
+    "completion_date": "Q4 2026",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Pagani Carbon-Fiber Lobbies & Resident Lounge",
+      "Rooftop Infinity Pool with Burj Khalifa & Canal Skyline Views",
+      "State-of-the-art TechnoGym & Wellness Spa",
+      "24/7 White-Glove Valet & Concierge",
+      "Private Elevators & Direct Penthouse Access",
+      "Smart Home Automation System by Bang & Olufsen"
+    ],
+    "description": "Da Vinci Tower by Pagani is a sculptural residential masterpiece rising above the Dubai Water Canal in Business Bay. Designed in direct collaboration with Horacio Pagani, the tower mirrors the aerodynamics, rare carbon-titanium finishes, and artisan precision of Pagani hypercars.",
+    "investment_highlights": {
+      "projected_roi_pct": 8.5,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "7.5% - 8.8% Net"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "official_url": "https://darglobal.co.uk/da-vinci-tower"
+  },
+  {
+    "id": "dg-trump-tower-dubai",
+    "source": "DarGlobal",
+    "name": "Trump International Hotel & Tower Dubai",
+    "brand_partner": "The Trump Organization",
+    "location": {
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "neighborhood": "Sheikh Zayed Road",
+      "coordinates": { "lat": 25.2048, "lng": 55.2708 }
+    },
+    "property_types": ["Branded Hotel Apartment", "Sky Villa", "Penthouse"],
+    "bedrooms": [1, 2, 3, 5],
+    "bathrooms": [2, 3, 4, 6],
+    "area_sqft": { "min": 1100, "max": 11500 },
+    "area_sqm": { "min": 102, "max": 1068 },
+    "price": {
+      "starting_price_usd": 1950000,
+      "starting_price_aed": 7160000,
+      "starting_price_sar": 7312500,
+      "starting_price_gbp": 1560000,
+      "starting_price_eur": 1815000
+    },
+    "payment_plan": "10% Down Payment, 70% Staged Construction, 20% on Completion",
+    "completion_date": "Q3 2027",
+    "completion_status": "Off-Plan",
+    "amenities": [
+      "Members-Only Trump Private Club & Cigar Lounge",
+      "Signature Trump Spa & Thermal Suite",
+      "Sky Pool on 60th Floor with 360-Degree Views",
+      "Dedicated Private Butler Services",
+      "Michelin-Starred Restaurant Partnerships",
+      "Helipad Access & Luxury Chauffeur Fleet"
+    ],
+    "description": "Rising commandingly on prestigious Sheikh Zayed Road, Trump International Hotel & Tower Dubai is an icon of architectural distinction and world-class luxury hospitality. Features ultra-exclusive branded residences with private sky-gardens.",
+    "investment_highlights": {
+      "projected_roi_pct": 9.2,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "8.0% - 9.5% Net via Managed Hotel Rental Pool"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80"
+    ],
+    "official_url": "https://darglobal.co.uk/trump-dubai"
+  },
+  {
+    "id": "dg-urban-oasis-missoni",
+    "source": "DarGlobal",
+    "name": "Urban Oasis by Missoni",
+    "brand_partner": "Missoni",
+    "location": {
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "neighborhood": "Dubai Water Canal",
+      "coordinates": { "lat": 25.1872, "lng": 55.2612 }
+    },
+    "property_types": ["Waterfront Apartment", "Penthouse"],
+    "bedrooms": [1, 2, 3, 4],
+    "bathrooms": [2, 3, 4, 5],
+    "area_sqft": { "min": 850, "max": 4200 },
+    "area_sqm": { "min": 79, "max": 390 },
+    "price": {
+      "starting_price_usd": 850000,
+      "starting_price_aed": 3120000,
+      "starting_price_sar": 3187500,
+      "starting_price_gbp": 680000,
+      "starting_price_eur": 790000
+    },
+    "payment_plan": "Ready / Handed Over - Flexible Resale & Investor Finance Available",
+    "completion_date": "Ready / Handed Over",
+    "completion_status": "Completed",
+    "amenities": [
+      "Signature Missoni Home Patterns & Interiors",
+      "Infinity Pool Overlooking Dubai Water Canal",
+      "State-of-the-Art Gymnasium & Fitness Center",
+      "Canal Promenade & Yacht Mooring Access",
+      "Landscaped Leisure Deck & Barbecue Zone"
+    ],
+    "description": "Urban Oasis is the world's second residential tower featuring bespoke interiors by Missoni, the iconic Italian fashion house. Perched right on the waterfront of Dubai Canal, each unit embodies Missoni's signature vibrant color palettes and geometric zigzag motifs.",
+    "investment_highlights": {
+      "projected_roi_pct": 8.0,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "7.8% - 8.4% Net (Immediate Rental Cashflow)"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80"
+    ],
+    "official_url": "https://darglobal.co.uk/urban-oasis"
+  },
+  {
+    "id": "dg-w-residences-downtown",
+    "source": "DarGlobal",
+    "name": "W Residences Dubai – Downtown",
+    "brand_partner": "W Hotels / Marriott International",
+    "location": {
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "neighborhood": "Downtown Dubai",
+      "coordinates": { "lat": 25.1932, "lng": 55.2755 }
+    },
+    "property_types": ["Branded Luxury Apartment", "Penthouse"],
+    "bedrooms": [1, 2, 3, 4],
+    "bathrooms": [2, 3, 4, 5],
+    "area_sqft": { "min": 1050, "max": 5100 },
+    "area_sqm": { "min": 98, "max": 474 },
+    "price": {
+      "starting_price_usd": 1250000,
+      "starting_price_aed": 4590000,
+      "starting_price_sar": 4687500,
+      "starting_price_gbp": 1000000,
+      "starting_price_eur": 1162500
+    },
+    "payment_plan": "70% During Construction / 30% on Handover",
+    "completion_date": "Q4 2026",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Whatever/Whenever W Hotel Signature Concierge Service",
+      "The Clubhouse: Private Cinema, Game Lounge & Co-working",
+      "Curved Infinity Pool with Burj Khalifa Views",
+      "FIT Fitness Center & AWAY Spa Treatment Suites",
+      "Exclusive Access to VIP W Global Privileges"
+    ],
+    "description": "W Residences Downtown Dubai places residents directly in the throes of Dubai's vibrant cultural and business epicenter, overlooking the Burj Khalifa. Features pulsating design, avant-garde social spaces, and 24/7 signature W hotel hospitality.",
+    "investment_highlights": {
+      "projected_roi_pct": 8.7,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "8.2% - 9.0% Net"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80"
+    ],
+    "official_url": "https://darglobal.co.uk/w-residences"
+  },
+  {
+    "id": "dg-dg1-living",
+    "source": "DarGlobal",
+    "name": "DG1 Living Dubai Canal",
+    "brand_partner": "DarGlobal Contemporary Signature",
+    "location": {
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "neighborhood": "Business Bay / Dubai Canal",
+      "coordinates": { "lat": 25.1865, "lng": 55.2690 }
+    },
+    "property_types": ["Luxury Waterfront Apartment", "Sky Residence"],
+    "bedrooms": [1, 2, 3],
+    "bathrooms": [2, 3, 4],
+    "area_sqft": { "min": 800, "max": 2800 },
+    "area_sqm": { "min": 74, "max": 260 },
+    "price": {
+      "starting_price_usd": 680000,
+      "starting_price_aed": 2499000,
+      "starting_price_sar": 2550000,
+      "starting_price_gbp": 544000,
+      "starting_price_eur": 632000
+    },
+    "payment_plan": "10% Down Payment, 60% During Construction, 30% on Handover",
+    "completion_date": "Q3 2026",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Dynamic Sculptural Facade by Gensler",
+      "Infinity Swimming Pool with Downtown Skyline Vistas",
+      "Outdoor Cinema & Sky Garden Observatory Deck",
+      "Cutting-Edge Health Club & Pilates Studio",
+      "Concierge & 24/7 Security"
+    ],
+    "description": "DG1 is DarGlobal's flagship design tower in Business Bay. Designed by world-renowned architects Gensler, the tower boasts an innovative twisting silhouette providing panoramic vistas over Dubai Canal and Burj Khalifa.",
+    "investment_highlights": {
+      "projected_roi_pct": 8.4,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "7.5% - 8.5% Net"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/dg1"
+  },
+  {
+    "id": "dg-astera-aston-martin",
+    "source": "DarGlobal",
+    "name": "The Astera, Interiors by Aston Martin",
+    "brand_partner": "Aston Martin",
+    "location": {
+      "city": "Ras Al Khaimah / Dubai Corridor",
+      "country": "United Arab Emirates",
+      "neighborhood": "Al Marjan Island",
+      "coordinates": { "lat": 25.6812, "lng": 55.7483 }
+    },
+    "property_types": ["Waterfront Branded Residence", "Beach Villa"],
+    "bedrooms": [1, 2, 3, 4],
+    "bathrooms": [2, 3, 4, 5],
+    "area_sqft": { "min": 950, "max": 4800 },
+    "area_sqm": { "min": 88, "max": 446 },
+    "price": {
+      "starting_price_usd": 780000,
+      "starting_price_aed": 2865000,
+      "starting_price_sar": 2925000,
+      "starting_price_gbp": 624000,
+      "starting_price_eur": 725000
+    },
+    "payment_plan": "10% Down, 60% Staged Construction, 30% Upon Handover",
+    "completion_date": "Q4 2027",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Aston Martin Handcrafted Bespoke Leather Interiors",
+      "Private White-Sand Beach Access",
+      "Waterfront Infinity Pool & Beach Club",
+      "Direct Proximity to Wynn Gaming Resort & Casino",
+      "Yacht Docking Facilities & Water Sports Marina"
+    ],
+    "description": "The Astera brings Aston Martin's British high-performance elegance to Al Marjan Island, neighboring the upcoming multi-billion dollar Wynn Integrated Resort. Residences feature bespoke British leatherwork, aerodynamic styling, and unobstructed Arabian Gulf sea views.",
+    "investment_highlights": {
+      "projected_roi_pct": 11.5,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "9.5% - 12.0% Net (High tourist & gaming corridor demand)"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/the-astera"
+  },
+  {
+    "id": "dg-tierra-viva-lamborghini",
+    "source": "DarGlobal",
+    "name": "Tierra Viva by Automobili Lamborghini",
+    "brand_partner": "Automobili Lamborghini",
+    "location": {
+      "city": "Benahavís / Marbella",
+      "country": "Spain",
+      "neighborhood": "Costa del Sol",
+      "coordinates": { "lat": 36.5262, "lng": -5.0342 }
+    },
+    "property_types": ["Ultra-Exclusive Branded Villa", "Mansion"],
+    "bedrooms": [4, 5, 6],
+    "bathrooms": [5, 6, 7],
+    "area_sqft": { "min": 7200, "max": 14500 },
+    "area_sqm": { "min": 669, "max": 1347 },
+    "price": {
+      "starting_price_usd": 4200000,
+      "starting_price_aed": 15435000,
+      "starting_price_sar": 15750000,
+      "starting_price_gbp": 3360000,
+      "starting_price_eur": 3900000
+    },
+    "payment_plan": "30% Down, 40% Construction Milestones, 30% Completion",
+    "completion_date": "Q2 2027",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Custom Lamborghini-Engineered Hexagonal Architecture",
+      "Private Hillside Infinity Pools Overlooking the Mediterranean",
+      "Private Home Cinemas, Wine Bodegas & Spa Suites",
+      "Subterranean Multi-Supercar Display Showrooms",
+      "24/7 Gated Security & Elite Concierge Community"
+    ],
+    "description": "Tierra Viva is an exclusive architectural enclave of 53 individual luxury villas tucked into the hills of Benahavís, overlooking Marbella and the Mediterranean Sea. Each villa draws direct inspiration from the raw power and sharp lines of Lamborghini supercars.",
+    "investment_highlights": {
+      "projected_roi_pct": 7.5,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "6.5% - 7.5% Net in high-demand European luxury rental"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/tierra-viva"
+  },
+  {
+    "id": "dg-marea-missoni-spain",
+    "source": "DarGlobal",
+    "name": "Marea, Interiors by Missoni (Spain)",
+    "brand_partner": "Missoni",
+    "location": {
+      "city": "Casares / Marbella",
+      "country": "Spain",
+      "neighborhood": "Finca Cortesin Resort",
+      "coordinates": { "lat": 36.3980, "lng": -5.2285 }
+    },
+    "property_types": ["Branded Luxury Apartment", "Penthouse"],
+    "bedrooms": [2, 3, 4],
+    "bathrooms": [2, 3, 4],
+    "area_sqft": { "min": 1400, "max": 3900 },
+    "area_sqm": { "min": 130, "max": 362 },
+    "price": {
+      "starting_price_usd": 1150000,
+      "starting_price_aed": 4226000,
+      "starting_price_sar": 4312500,
+      "starting_price_gbp": 920000,
+      "starting_price_eur": 1070000
+    },
+    "payment_plan": "20% Down / 50% During Construction / 30% Completion",
+    "completion_date": "Q3 2027",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Access to Finca Cortesin Championship Golf & Beach Club",
+      "Panoramic Views of the Mediterranean & Rock of Gibraltar",
+      "Infinity Swimming Pool & Missoni Sun Lounges",
+      "Tennis & Padel Courts",
+      "Private Gated Enclave with 24-Hour Security"
+    ],
+    "description": "Marea is set within the prestigious Finca Cortesin luxury resort, one of the best golf destinations in Europe. Featuring signature Missoni prints and bespoke fittings, residences offer breathtaking 180-degree Mediterranean and golf vistas.",
+    "investment_highlights": {
+      "projected_roi_pct": 7.2,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "6.8% - 7.5% Net"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/marea"
+  },
+  {
+    "id": "dg-aida-trump-oman",
+    "source": "DarGlobal",
+    "name": "AIDA – Trump International Golf Resort & Cliff Villas",
+    "brand_partner": "The Trump Organization",
+    "location": {
+      "city": "Muscat",
+      "country": "Oman",
+      "neighborhood": "Yiti & Yenkit Coastline",
+      "coordinates": { "lat": 23.5350, "lng": 58.7180 }
+    },
+    "property_types": ["Cliffside Villa", "Golf Villa", "Luxury Mansion"],
+    "bedrooms": [3, 4, 5, 7],
+    "bathrooms": [4, 5, 6, 8],
+    "area_sqft": { "min": 3200, "max": 18000 },
+    "area_sqm": { "min": 297, "max": 1672 },
+    "price": {
+      "starting_price_usd": 1100000,
+      "starting_price_aed": 4040000,
+      "starting_price_sar": 4125000,
+      "starting_price_gbp": 880000,
+      "starting_price_eur": 1025000
+    },
+    "payment_plan": "10% Down Payment, 70% Over 3 Years, 20% on Handover",
+    "completion_date": "Q1 2028",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "18-Hole Championship Trump Golf Course Perched 130m Above Ocean",
+      "Trump International Luxury Hotel & Spa",
+      "Private Cliff-Hanging Infinity Pools",
+      "Exclusive Beach Club & Marina Pier",
+      "Wellness Canyons & Hiking Trails"
+    ],
+    "description": "Perched dramatically 130 meters above the Gulf of Oman, AIDA is a 3.5 million square meter master-planned cliffside paradise. Features Trump International Golf Club, oceanfront cliff villas, and unmatched dramatic ocean panoramas.",
+    "investment_highlights": {
+      "projected_roi_pct": 8.8,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "7.5% - 9.0% Net (Oman 0% personal income tax advantage)"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/aida"
+  },
+  {
+    "id": "dg-les-vagues-elie-saab",
+    "source": "DarGlobal",
+    "name": "Les Vagues by Elie Saab",
+    "brand_partner": "Elie Saab",
+    "location": {
+      "city": "Doha",
+      "country": "Qatar",
+      "neighborhood": "Qetaifan Island North",
+      "coordinates": { "lat": 25.4380, "lng": 51.5280 }
+    },
+    "property_types": ["Waterfront Luxury Apartment", "Duplex"],
+    "bedrooms": [1, 2, 3],
+    "bathrooms": [2, 3, 4],
+    "area_sqft": { "min": 920, "max": 3100 },
+    "area_sqm": { "min": 85, "max": 288 },
+    "price": {
+      "starting_price_usd": 650000,
+      "starting_price_aed": 2388000,
+      "starting_price_sar": 2437500,
+      "starting_price_gbp": 520000,
+      "starting_price_eur": 605000
+    },
+    "payment_plan": "10% Down, 60% Construction Milestones, 30% Handover",
+    "completion_date": "Q1 2027",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Interiors Tailored by Haute Couture Designer Elie Saab",
+      "Infinity Pool on the Marina with Arabian Sea Horizon",
+      "State-of-the-Art Fitness Center & Pilates Studio",
+      "Direct Private Beach Access & Promenade Cafes",
+      "24/7 Security and Valet Parking"
+    ],
+    "description": "Les Vagues is DarGlobal's premier residential project in Qatar, situated on Qetaifan Island North. Designed with the timeless haute couture aesthetic of Elie Saab, it offers sea views, private balconies, and waterfront marina luxury.",
+    "investment_highlights": {
+      "projected_roi_pct": 7.8,
+      "golden_visa_eligible": true,
+      "freehold": true,
+      "rental_yield_estimate": "7.0% - 8.2% Net"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/les-vagues"
+  },
+  {
+    "id": "dg-trump-tower-jeddah",
+    "source": "DarGlobal",
+    "name": "Trump Tower Jeddah",
+    "brand_partner": "The Trump Organization",
+    "location": {
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "neighborhood": "Jeddah Waterfront / Corniche",
+      "coordinates": { "lat": 21.5833, "lng": 39.1500 }
+    },
+    "property_types": ["Sky Villa", "Luxury Branded Apartment", "Penthouse"],
+    "bedrooms": [2, 3, 4, 5],
+    "bathrooms": [3, 4, 5, 6],
+    "area_sqft": { "min": 1800, "max": 9500 },
+    "area_sqm": { "min": 167, "max": 882 },
+    "price": {
+      "starting_price_usd": 1800000,
+      "starting_price_aed": 6610000,
+      "starting_price_sar": 6750000,
+      "starting_price_gbp": 1440000,
+      "starting_price_eur": 1675000
+    },
+    "payment_plan": "15% Down Payment, 65% During Construction, 20% on Handover",
+    "completion_date": "Q4 2027",
+    "completion_status": "Off-Plan",
+    "amenities": [
+      "Exclusive Trump Members-Only Club Jeddah",
+      "Panoramic Views of the Red Sea & Jeddah F1 Circuit",
+      "Infinity Sky Pools & Hydrotherapy Spas",
+      "Private Meeting Suites & Fine Dining Restaurants",
+      "24/7 White-Glove Concierge & Chauffeur Services"
+    ],
+    "description": "Marking Trump Organization's landmark entry into Saudi Arabia, Trump Tower Jeddah is a flagship architectural marvel on the Red Sea waterfront. Built for ultra-high-net-worth investors and regional leaders aligning with Vision 2030.",
+    "investment_highlights": {
+      "projected_roi_pct": 10.5,
+      "golden_visa_eligible": false,
+      "freehold": true,
+      "rental_yield_estimate": "9.0% - 11.0% Net (High diplomatic & executive rental demand)"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1541888946425-d0fbb1861593?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/trump-jeddah"
+  },
+  {
+    "id": "dg-trump-mansions-wadi-safar",
+    "source": "DarGlobal",
+    "name": "Trump Mansions at Wadi Safar",
+    "brand_partner": "The Trump Organization",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "Wadi Safar / Diriyah",
+      "coordinates": { "lat": 24.7333, "lng": 46.5167 }
+    },
+    "property_types": ["Palatial Estate", "Luxury Desert Mansion"],
+    "bedrooms": [5, 6, 7, 8],
+    "bathrooms": [6, 7, 8, 10],
+    "area_sqft": { "min": 12000, "max": 35000 },
+    "area_sqm": { "min": 1115, "max": 3251 },
+    "price": {
+      "starting_price_usd": 6800000,
+      "starting_price_aed": 24990000,
+      "starting_price_sar": 25500000,
+      "starting_price_gbp": 5440000,
+      "starting_price_eur": 6325000
+    },
+    "payment_plan": "25% Down, 50% Milestone Construction, 25% Handover",
+    "completion_date": "Q2 2028",
+    "completion_status": "Off-Plan",
+    "amenities": [
+      "Access to Championship Trump Golf Course in Wadi Safar",
+      "Private Estate Grounds with Extensive Desert Oasis Landscaping",
+      "Subterranean Garage for Collector Car Fleets",
+      "Private Wellness Sanctuary, Indoor & Outdoor Pools, Hammam",
+      "Direct Proximity to Diriyah UNESCO Heritage City"
+    ],
+    "description": "Located in the 'Bel Air of Saudi Arabia', Trump Mansions at Wadi Safar represents the pinnacle of Arabian desert luxury. Spanning up to 35,000 sq ft, each palatial estate is set against dramatic canyon landscapes in Diriyah.",
+    "investment_highlights": {
+      "projected_roi_pct": 12.0,
+      "golden_visa_eligible": false,
+      "freehold": true,
+      "rental_yield_estimate": "10.0% - 13.0% Net (Ultra-luxury sovereign & VIP leasing)"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/wadi-safar"
+  },
+  {
+    "id": "dg-neptune-mouawad",
+    "source": "DarGlobal",
+    "name": "Neptune by Mouawad",
+    "brand_partner": "Mouawad High Jewelry",
+    "location": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "neighborhood": "North Riyadh (Adjacent to Expo 2030 site)",
+      "coordinates": { "lat": 24.8900, "lng": 46.6800 }
+    },
+    "property_types": ["Jewelry-Inspired Villa", "Bespoke Mansion"],
+    "bedrooms": [4, 5, 6],
+    "bathrooms": [5, 6, 7],
+    "area_sqft": { "min": 6500, "max": 16000 },
+    "area_sqm": { "min": 603, "max": 1486 },
+    "price": {
+      "starting_price_usd": 3200000,
+      "starting_price_aed": 11760000,
+      "starting_price_sar": 12000000,
+      "starting_price_gbp": 2560000,
+      "starting_price_eur": 2975000
+    },
+    "payment_plan": "20% Down, 60% During Construction, 20% on Completion",
+    "completion_date": "Q3 2027",
+    "completion_status": "Under Construction",
+    "amenities": [
+      "Bespoke Jewelry-Crafted Architectural Finishes & Onyx Marble",
+      "Private Heated Swimming Pools & Sculpted Water Features",
+      "Multi-Tier Security & Biometric Access",
+      "Smart Home AI Energy & Climate Ecosystem",
+      "Proximity to King Salman International Airport & Expo 2030"
+    ],
+    "description": "Crafted with the craftsmanship of world-renowned high-jewelry house Mouawad, Neptune villas bring gemstone-inspired aesthetics, mother-of-pearl inlays, and ultra-prime living to North Riyadh ahead of Riyadh Expo 2030.",
+    "investment_highlights": {
+      "projected_roi_pct": 11.0,
+      "golden_visa_eligible": false,
+      "freehold": true,
+      "rental_yield_estimate": "9.5% - 11.5% Net"
+    },
+    "hero_image_url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+    "gallery_images": [],
+    "official_url": "https://darglobal.co.uk/neptune-mouawad"
+  }
+]

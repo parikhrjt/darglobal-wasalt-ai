@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: darglobal-wasalt-ai
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: OPENROUTER_MODEL
+        value: meta-llama/llama-3.3-70b-instruct:free
+      - key: OPENROUTER_API_KEY
+        sync: false
