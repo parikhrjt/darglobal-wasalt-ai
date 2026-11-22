@@ -1,5 +1,6 @@
 # DarGlobal × Wasalt — Agentic AI Real Estate Copilot
 
+[![Live Demo](https://img.shields.io/badge/Demo-darglobal--wasalt--ai.vercel.app-gold.svg)](https://darglobal-wasalt-ai.vercel.app/)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-blue.svg)](https://www.docker.com/)

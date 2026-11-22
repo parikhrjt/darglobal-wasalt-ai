@@ -30,8 +30,9 @@ Please find below my requested candidate information and the complete submission
 In response to the technical brief, I have designed, engineered, containerised, and deployed an autonomous real estate copilot connecting DarGlobal's ultra-luxury co-branded developments (The Trump Organization, Pagani, Missoni, Aston Martin, Automobili Lamborghini, Elie Saab, Mouawad) with Wasalt's verified Saudi proptech marketplace.
 
 #### 🌐 Live Working URL & Demo Access
-* **Live Application URL:** [https://darglobal-wasalt-ai.onrender.com](https://darglobal-wasalt-ai.onrender.com)
-* **System Health Endpoint:** [https://darglobal-wasalt-ai.onrender.com/health](https://darglobal-wasalt-ai.onrender.com/health)
+* **Primary Live Application URL:** [https://darglobal-wasalt-ai.vercel.app](https://darglobal-wasalt-ai.vercel.app)
+* **System Health Endpoint:** [https://darglobal-wasalt-ai.vercel.app/health](https://darglobal-wasalt-ai.vercel.app/health)
+* **Secondary Mirror (Render):** [https://darglobal-wasalt-ai.onrender.com](https://darglobal-wasalt-ai.onrender.com)
 * **GitHub Repository:** [https://github.com/parikhrjt/darglobal-wasalt-ai](https://github.com/parikhrjt/darglobal-wasalt-ai)
 
 *(The platform includes a resilient Dual-Engine Architecture with instant fallback to a deterministic property reasoning engine, ensuring 100% continuous uptime and zero rate-limit disruptions during candidate evaluation).*
