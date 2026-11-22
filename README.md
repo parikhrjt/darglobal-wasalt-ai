@@ -92,7 +92,7 @@ darglobal-wasalt-ai/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/darglobal-wasalt-ai.git
+   git clone https://github.com/parikhrjt/darglobal-wasalt-ai.git
    cd darglobal-wasalt-ai
    ```
 

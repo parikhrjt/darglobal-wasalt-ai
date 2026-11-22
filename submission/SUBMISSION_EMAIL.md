@@ -29,7 +29,7 @@ In response to the technical brief, I have designed, engineered, containerised, 
 #### 🌐 Live Working URL & Demo Access
 * **Live Application URL:** [https://darglobal-wasalt-ai.onrender.com](https://darglobal-wasalt-ai.onrender.com) *(or your Hugging Face Space / Tunnel URL)*
 * **System Health Endpoint:** [https://darglobal-wasalt-ai.onrender.com/health](https://darglobal-wasalt-ai.onrender.com/health)
-* **GitHub Repository:** [https://github.com/your-username/darglobal-wasalt-ai](https://github.com/your-username/darglobal-wasalt-ai)
+* **GitHub Repository:** [https://github.com/parikhrjt/darglobal-wasalt-ai](https://github.com/parikhrjt/darglobal-wasalt-ai)
 
 *(Note: The application features an autonomous Dual-Engine Architecture with instant fallback to a deterministic agentic brain, ensuring 100% continuous uptime during evaluation regardless of upstream OpenRouter free-tier rate limits or key availability).*
 
